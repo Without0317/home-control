@@ -1,6 +1,3 @@
-const turnonButton = document.getElementById('turnon');
-const turnoffButton = document.getElementById('turnoff');
-
 async function turnonbutton() {
     const response = await fetch(
         "https://homeswitch.k-680.workers.dev/on"
@@ -13,7 +10,7 @@ async function turnonbutton() {
 
 async function turnoffbutton() {
     const response = await fetch(
-        "https://homeswitch.k-680.workers.dev/on"
+        "https://homeswitch.k-680.workers.dev/off"
     );
 
     const result = await response.text();
