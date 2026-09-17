@@ -1,4 +1,4 @@
-const CACHE_NAME = "home-control-v1";
+const CACHE_NAME = "home-control-v2";
 const APP_SHELL = ["index.html", "styles.css", "script.js", "manifest.json"];
 
 // Runs once, when the service worker first installs — cache the app shell
